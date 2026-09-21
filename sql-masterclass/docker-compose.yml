@@ -1,0 +1,23 @@
+name: sql-masterclass
+
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: sql_masterclass
+      POSTGRES_USER: masterclass
+      POSTGRES_PASSWORD: masterclass
+    ports:
+      - "5438:5432"
+    volumes:
+      - masterclass_pgdata:/var/lib/postgresql/data
+      - ./database:/docker-entrypoint-initdb.d:ro
+      - ./:/work:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U masterclass -d sql_masterclass"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  masterclass_pgdata:
