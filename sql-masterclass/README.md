@@ -9,9 +9,9 @@ casts, and a few details may differ in another database.
 
 ## Course path
 
-1. [Part 1: Data definition and querying](part-01-querying/README.md)
-2. [Part 2: Joins and aggregation](part-02-joins-and-aggregation/README.md)
-3. [Part 3: Analytical SQL](part-03-analytical-sql/README.md)
+1. Part 1: Data definition and querying — [watch the video](https://youtu.be/rVMVKsfha1U) · [open the course files](part-01-querying/README.md)
+2. Part 2: Joins and aggregation — [watch the video](https://youtu.be/uHEE1QPo9hQ) · [open the course files](part-02-joins-and-aggregation/README.md)
+3. Part 3: Analytical SQL — [watch the video](https://youtu.be/cco9F4rlb9Y) · [open the course files](part-03-analytical-sql/README.md)
 
 Each part contains:
 
