@@ -26,11 +26,48 @@ examples run inside a transaction and roll back when complete.
 Code identifiers such as `P1-D01` and `P2-Q04` match the labels used in the video
 scripts and screen-recording plan.
 
-## Quick start with Docker
+## Choose your setup
 
-You need Docker Desktop or another Docker environment with Compose support.
+You only need a working PostgreSQL 17 database. If PostgreSQL already runs on
+your Windows, macOS, or Linux system, use it directly. Docker is optional and is
+provided as a convenient fallback when you do not have PostgreSQL installed or
+do not want to configure a local database.
 
-Start PostgreSQL:
+### Option 1: Use an existing PostgreSQL installation
+
+From the repository's `sql-masterclass` directory, create a database and load
+the course files in order:
+
+```bash
+createdb sql_masterclass
+psql -d sql_masterclass -v ON_ERROR_STOP=1 -f database/00-schema.sql
+psql -d sql_masterclass -v ON_ERROR_STOP=1 -f database/01-seed.sql
+psql -d sql_masterclass -v ON_ERROR_STOP=1 -f database/02-indexes.sql
+psql -d sql_masterclass -v ON_ERROR_STOP=1 -f database/03-validate.sql
+```
+
+If your PostgreSQL setup requires a host, port, or username, add the appropriate
+`psql` connection options. You can also run the same four files in order from
+DBeaver, DataGrip, VS Code, pgAdmin, or another PostgreSQL client.
+
+Open an interactive session:
+
+```bash
+psql -d sql_masterclass
+```
+
+Then run a completed lesson from inside `psql`:
+
+```text
+\i part-01-querying/completed.sql
+```
+
+### Option 2: Use Docker
+
+Use this option if PostgreSQL is not already available on your system. You need
+Docker Desktop or another Docker environment with Compose support.
+
+Start the included PostgreSQL environment:
 
 ```bash
 docker compose up -d
@@ -68,8 +105,12 @@ These are local teaching credentials, not production credentials.
 
 ## Reset the database
 
-This deletes only the Docker volume created for this course, then rebuilds the
-synthetic database:
+With a native PostgreSQL installation, rerun `database/00-schema.sql`,
+`database/01-seed.sql`, and `database/02-indexes.sql` in that order. The first
+file replaces only the `masterclass` schema used by this course.
+
+With Docker, the following commands delete only the volume created for this
+course, then rebuild the synthetic database:
 
 ```bash
 docker compose down -v
@@ -78,7 +119,13 @@ docker compose up -d
 
 ## Validate the course files
 
-With the database running:
+For a native installation, validate the dataset with:
+
+```bash
+psql -d sql_masterclass -v ON_ERROR_STOP=1 -f database/03-validate.sql
+```
+
+For Docker, run the full course validation with:
 
 ```bash
 ./scripts/validate.sh
