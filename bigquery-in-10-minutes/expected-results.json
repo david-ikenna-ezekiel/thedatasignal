@@ -1,0 +1,41 @@
+{
+  "input_rows": 12,
+  "completed_orders": 10,
+  "cancelled_orders": 2,
+  "total_units": 25,
+  "total_revenue_gbp": "252.00",
+  "product_revenue": [
+    {
+      "product": "Coffee",
+      "order_count": 4,
+      "units_sold": 10,
+      "revenue_gbp": "120.00"
+    },
+    {
+      "product": "Tea",
+      "order_count": 3,
+      "units_sold": 9,
+      "revenue_gbp": "72.00"
+    },
+    {
+      "product": "Cocoa",
+      "order_count": 3,
+      "units_sold": 6,
+      "revenue_gbp": "60.00"
+    }
+  ],
+  "first_query_order_ids": [
+    "O1001",
+    "O1002",
+    "O1003",
+    "O1004",
+    "O1005"
+  ],
+  "staged_query_row_counts": {
+    "Q00a": 12,
+    "Q00b": 10,
+    "Q01": 5,
+    "Q02": 3,
+    "Q03": 3
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "order_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "order_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "quantity",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "unit_price",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

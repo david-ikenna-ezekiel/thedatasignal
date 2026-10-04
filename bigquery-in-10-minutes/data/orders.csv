@@ -1,0 +1,13 @@
+order_id,order_date,product,quantity,unit_price,status
+O1001,2026-09-01,Coffee,2,12.00,completed
+O1002,2026-09-01,Tea,3,8.00,completed
+O1003,2026-09-01,Cocoa,1,10.00,completed
+O1004,2026-09-02,Coffee,1,12.00,completed
+O1005,2026-09-02,Tea,2,8.00,completed
+O1006,2026-09-03,Cocoa,2,10.00,completed
+O1007,2026-09-03,Coffee,3,12.00,completed
+O1008,2026-09-04,Tea,4,8.00,completed
+O1009,2026-09-04,Cocoa,3,10.00,completed
+O1010,2026-09-05,Coffee,4,12.00,completed
+O1011,2026-09-05,Coffee,5,12.00,cancelled
+O1012,2026-09-06,Tea,1,8.00,cancelled

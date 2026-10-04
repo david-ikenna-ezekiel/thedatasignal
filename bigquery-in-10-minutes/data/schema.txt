@@ -1,0 +1,1 @@
+order_id:STRING,order_date:DATE,product:STRING,quantity:INTEGER,unit_price:NUMERIC,status:STRING
