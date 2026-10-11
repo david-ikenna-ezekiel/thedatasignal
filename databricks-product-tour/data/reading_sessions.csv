@@ -1,0 +1,13 @@
+session_id,session_date,genre,minutes,status
+1,2026-09-21,Technology,45,Completed
+2,2026-09-21,Fiction,30,Completed
+3,2026-09-22,History,20,Completed
+4,2026-09-22,Technology,30,Completed
+5,2026-09-23,Fiction,25,Completed
+6,2026-09-23,History,15,Completed
+7,2026-09-24,Technology,40,Completed
+8,2026-09-24,Fiction,35,Completed
+9,2026-09-25,History,25,Completed
+10,2026-09-25,Technology,35,Completed
+11,2026-09-26,Fiction,20,Planned
+12,2026-09-27,Technology,30,Planned

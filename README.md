@@ -7,3 +7,5 @@ Public repo for materials and resources used in The Data Signal videos
 - [Google Drive to Databricks](google-drive-databricks/README.md)
 
 - [BigQuery in 10 Minutes](bigquery-in-10-minutes/README.md) — free sandbox, CSV upload, SQL queries and views
+
+- [Databricks Product Tour](databricks-product-tour/README.md) — CSV data, Python notebook, SQL, dashboard and job walkthrough
