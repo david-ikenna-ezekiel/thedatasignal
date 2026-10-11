@@ -1,8 +1,8 @@
-# Databricks Product Tour — Lesson Files
+# Databricks Quick Overview — Lesson Files
 
 Follow along with The Data Signal's Databricks walkthrough: upload a CSV, explore it in a Python notebook, save a Delta table, write SQL, build a dashboard and run the notebook as a job.
 
-**[Download the lesson ZIP](databricks-product-tour.zip?raw=true)** and unzip it. To save individual files on GitHub, open the file and choose **Download raw file**.
+**[Download the lesson ZIP](databricks-quick-overview.zip?raw=true)** and unzip it. To save individual files on GitHub, open the file and choose **Download raw file**.
 
 ## Files
 

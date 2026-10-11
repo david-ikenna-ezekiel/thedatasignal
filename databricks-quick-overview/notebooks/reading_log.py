@@ -1,5 +1,5 @@
 # Databricks notebook source
-# Reading log: Databricks Product Tour — The Data Signal.
+# Reading log: Databricks Quick Overview — The Data Signal.
 # This version replaces the demo completed_reading output whenever it runs.
 # The upload step must first create reading_sessions in this catalog's reading_tour schema.
 # Use a fresh project schema if reading_tour already contains unrelated work.
