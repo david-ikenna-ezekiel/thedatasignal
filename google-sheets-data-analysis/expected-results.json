@@ -1,0 +1,54 @@
+{
+  "raw_rows": 13,
+  "raw_revenue": 370,
+  "clean_rows": 12,
+  "duplicate_order_id": "O001",
+  "duplicate_revenue": 30,
+  "total_revenue": 340,
+  "average_revenue_per_order": 28.33,
+  "revenue_by_region": {
+    "North": 120,
+    "South": 110,
+    "West": 110
+  },
+  "revenue_by_product": {
+    "Folder": 100,
+    "Notebook": 140,
+    "Pen": 100
+  },
+  "region_product_revenue": {
+    "North": {
+      "Notebook": 70,
+      "Pen": 20,
+      "Folder": 30
+    },
+    "South": {
+      "Pen": 50,
+      "Notebook": 20,
+      "Folder": 40
+    },
+    "West": {
+      "Folder": 30,
+      "Notebook": 50,
+      "Pen": 30
+    }
+  },
+  "conditional_formatting_greater_than_35": [
+    {
+      "OrderID": "O006",
+      "Revenue": 50
+    },
+    {
+      "OrderID": "O008",
+      "Revenue": 40
+    },
+    {
+      "OrderID": "O010",
+      "Revenue": 40
+    },
+    {
+      "OrderID": "O011",
+      "Revenue": 40
+    }
+  ]
+}

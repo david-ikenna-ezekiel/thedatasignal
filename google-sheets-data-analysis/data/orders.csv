@@ -1,0 +1,14 @@
+OrderID,Date,Region,Product,Units,UnitPrice
+O001,2026-09-01,North,Notebook,3,10
+O002,2026-09-02,South,Pen,5,2
+O003,2026-09-03,West,Folder,4,5
+O004,2026-09-04,North,Pen,10,2
+O005,2026-09-05,South,Notebook,2,10
+O006,2026-09-06,West,Notebook,5,10
+O007,2026-09-07,North,Folder,6,5
+O008,2026-09-08,South,Folder,8,5
+O009,2026-09-09,West,Pen,15,2
+O010,2026-09-10,North,Notebook,4,10
+O011,2026-09-11,South,Pen,20,2
+O012,2026-09-12,West,Folder,2,5
+O001,2026-09-01,North,Notebook,3,10

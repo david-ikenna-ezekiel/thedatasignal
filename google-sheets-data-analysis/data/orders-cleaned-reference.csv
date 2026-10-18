@@ -1,0 +1,13 @@
+OrderID,Date,Region,Product,Units,UnitPrice,Revenue,Category
+O001,2026-09-01,North,Notebook,3,10,30,Paper
+O002,2026-09-02,South,Pen,5,2,10,Writing
+O003,2026-09-03,West,Folder,4,5,20,Paper
+O004,2026-09-04,North,Pen,10,2,20,Writing
+O005,2026-09-05,South,Notebook,2,10,20,Paper
+O006,2026-09-06,West,Notebook,5,10,50,Paper
+O007,2026-09-07,North,Folder,6,5,30,Paper
+O008,2026-09-08,South,Folder,8,5,40,Paper
+O009,2026-09-09,West,Pen,15,2,30,Writing
+O010,2026-09-10,North,Notebook,4,10,40,Paper
+O011,2026-09-11,South,Pen,20,2,40,Writing
+O012,2026-09-12,West,Folder,2,5,10,Paper
